@@ -28,3 +28,11 @@ Projekti eesmärk on näidata minu oskusi:
 - Kuidas analüüsida seadmete käitumist erinevates olukordades
 - Kuidas teha korduvtestimist pärast muudatusi
 - Kui oluline on täpne dokumentatsioon testimisel
+
+## Testimiskeskkond
+
+- Seade: Smart Plug
+- Ühendus: WiFi
+- Testimise tüüp: Manual testing
+- Platvorm: Android mobiilirakendus
+- Testimise keskkond: Kodune võrk
