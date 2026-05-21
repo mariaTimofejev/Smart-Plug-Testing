@@ -1,24 +1,10 @@
-### Test 1: Esmane seadistus
-
-- Tulemus: Õnnestus
-- Märkus: ühendus võttis ~30 sekundit
-
-### Test 2: Võrgu kadumine
-
-- Tulemus: Õnnestus
-- Märkus: ühendus taastub automaatselt 1–2 minuti jooksul
-
-### Test 3: Elektrikatkestus
-
-- Tulemus: Õnnestus
-- Märkus: seade käivitus uuesti
-
-### Test 4: Mitu telefoni
-
-- Tulemus: Osaliselt õnnestus
-- Märkus: juhtimine töötas, aga viivitus oli märgatav
-
-### Test 5: Äpi restart
-
-- Tulemus: Õnnestus
-- Märkus: ühendus säilis
+| Testjuhtum             | Tulemus | Märkused                                 |
+| ---------------------- | ------- | ---------------------------------------- |
+| Esmane seadistus       | PASS    | Seade ühendus edukalt WiFi võrku         |
+| Võrgu kadumine         | FAIL    | Ühendus ei taastunud automaatselt        |
+| Elektrikatkestus       | PASS    | Seade käivitus pärast voolu taastumist   |
+| Mitu telefoni korraga  | FAIL    | Tekkis viivitus seadme reageerimisel     |
+| Äpi restart            | PASS    | Rakendus säilitas ühenduse seadmega      |
+| Seadme käsitsi restart | PASS    | Seade töötas normaalselt pärast restarti |
+| WiFi parooli muutmine  | PASS    | Seade võimaldas uuesti ühendamist        |
+| Pikem tööaeg (2h)      | PASS    | Ühendus jäi stabiilseks                  |
