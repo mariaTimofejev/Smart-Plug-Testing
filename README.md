@@ -20,3 +20,11 @@ Projekti eesmärk on näidata minu oskusi:
 - Testjuhtumite loomine
 - Vigade tuvastamine ja analüüs
 - Troubleshooting
+
+## Õppisin projekti käigus
+
+- Kuidas dokumenteerida testimistulemusi
+- Kuidas koostada bug report'e
+- Kuidas analüüsida seadmete käitumist erinevates olukordades
+- Kuidas teha korduvtestimist pärast muudatusi
+- Kui oluline on täpne dokumentatsioon testimisel
