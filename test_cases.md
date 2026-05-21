@@ -59,3 +59,14 @@
 - Proovi uuesti juhtida
 
 # Oodatav tulemus: töötab normaalselt
+
+### Test 6 – WiFi parooli muutmine
+
+## Eesmärk: Kontrollida seadme käitumist pärast võrgu parooli muutmist.
+
+Sammud:
+- Muuda WiFi parool
+- Taaskäivita seade
+- Proovi ühendust taastada
+
+# Oodatud tulemus: Seade küsib uut ühendust.
