@@ -1,13 +1,60 @@
-### Viga 1: Viivitus mitme telefoni kasutamisel
+### Bug 1 – Nutipistik ei ühendu automaatselt pärast ruuteri restarti
 
-## Kirjeldus: seadme reageerimine aeglustub, kui kaks telefoni seda korraga juhivad
+# Kirjeldus:
+- Pärast WiFi ruuteri taaskäivitamist ei loonud nutipistik automaatselt võrguühendust.
 
-# Sammud:
+# Testimise sammud:
 
-- Ühenda 2 telefoni
-- Lülita seadet korduvalt sisse/välja
+Ühendasin nutipistiku WiFi võrku
+Kontrollisin, et seade töötab normaalselt
+Taaskäivitasin ruuteri
+Ootasin 3 minutit
 
-# Oodatud tulemus: kohene reaktsioon
-# Tegelik tulemus: 2–5 sekundiline viivitus
+# Oodatud tulemus:
+- Seade ühendub automaatselt uuesti võrku.
 
-# Severity: madal
+# Tegelik tulemus:
+- Seade jäi offline olekusse ning vajas käsitsi taaskäivitamist.
+
+# Tõsidus:
+- Keskmine
+
+### Bug 2 – Viivitus kahe telefoni kasutamisel
+
+# Kirjeldus:
+- Seadme reageerimine aeglustus, kui nutipistikut juhiti korraga kahest telefonist.
+
+# Testimise sammud:
+
+- Ühendasin seadme telefoniga A
+- Lisasin seadme telefoni B
+- Lülitasin seadet sisse ja välja mõlemast telefonist
+
+# Oodatud tulemus:
+- Seade reageerib koheselt mõlemast telefonist.
+
+# Tegelik tulemus:
+- Reageerimisel tekkis 3–5 sekundiline viivitus.
+
+# Tõsidus:
+- Madal
+
+# Bug 3 – Äpp ei uuenda seadme olekut kohe
+
+# Kirjeldus:
+- Pärast seadme väljalülitamist ei uuenenud seadme staatus mobiilirakenduses kohe.
+
+# Testimise sammud:
+
+- Lülitasin seadme sisse
+- Lülitasin seadme välja füüsiliselt
+- Kontrollisin rakenduse olekut
+
+# Oodatud tulemus:
+- Rakendus kuvab kohe õige seadme staatuse.
+
+# Tegelik tulemus:
+- Rakendus näitas vana olekut umbes 10 sekundit.
+
+Tõsidus:
+- Madal
