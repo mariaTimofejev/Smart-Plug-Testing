@@ -1,9 +1,22 @@
-### Smart-Plug-Testing
+# Smart-Plug-Testing
 
 Olen junior QA / seadmete testimise huviline, kellel on kogemus koduautomaatika seadmete funktsionaalsuse testimisel, vigade tuvastamisel ja dokumenteerimisel.
 
-Eesmärk
-- näidata, et oskad seadet testida nagu päris QA / seadmetehnik.
+Projekt sisaldab, bug report'eid ja testjuhtumeid, mis on seotud koduautomaatika seadmete ja süsteemide testimisega.
 
-See projekt demonstreerib nutipistiku käsitsi testimist reaalsetes kasutustingimustes. 
-Projekti eesmärk oli hinnata seadme töökindlust, ühenduvust ja käitumist erinevates olukordades.
+## Eesmärk
+
+Projekti eesmärk on näidata minu oskusi:
+- seadmete testimisel
+- vigade tuvastamisel
+- testimise dokumenteerimisel
+- probleemide analüüsimisel
+
+# Oskused
+
+- Seadmete funktsionaalsuse testimine
+- Manual testing
+- Bug reportide koostamine
+- Testjuhtumite loomine
+- Vigade tuvastamine ja analüüs
+- Troubleshooting
